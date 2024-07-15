@@ -1,0 +1,96 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.tt-logo > img {
+  width: 100px;  
+  height: auto;
+}
+
+.hero {
+  color: #FFE9D6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  height: calc(100vh - 70px);
+  background: url("https://ik.imagekit.io/prezzgh/technologies/hero.jpg?updatedAt=1721001751574");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.intro {
+  padding: 64px 32px;
+  background-color: #11141B;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.projects {
+  color: #FFE589;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222;
+  padding: 64px 32px;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.project-list {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.project {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 12px;
+  background-color: #292929;
+  backdrop-filter: blur(10px);
+  width: 100%;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media (min-width: 1020px) {
+  .hero {
+    font-size: 64px;
+  }
+
+  .intro {
+    padding: 128px;
+    font-size: 32px;
+    line-height: 50px;
+  }
+}
