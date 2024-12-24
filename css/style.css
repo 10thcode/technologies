@@ -64,22 +64,6 @@ strong {
   font-weight: 700;
 }
 
-@media (min-width: 1020px) {
-  .hero {
-    font-size: 64px;
-  }
-
-  .intro {
-    padding: 128px;
-    font-size: 32px;
-    line-height: 50px;
-  }
-
-  .hero-links {
-    display: flex;
-  }
-}
-
 footer {
   padding: 64px;
   background-color: #11141B;
@@ -127,4 +111,39 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media (min-width: 1020px) {
+  .hero {
+    font-size: 64px;
+  }
+
+  .intro {
+    padding: 64px 128px;
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .hero-links {
+    flex-direction: row;
+  }
+
+  .projects {
+    display: flex;
+    gap: 32px;
+    padding: 0 128px 128px 128px;
+  }
+
+  .projects a {
+    flex: 1;
+  }
+
+  .project {
+    margin: 0;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
