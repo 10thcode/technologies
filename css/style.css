@@ -16,7 +16,7 @@ body {
 }
 
 .hero {
-  color: #FFE9D6;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,16 +26,16 @@ body {
   font-weight: 900;
   text-align: center;
   height: calc(100vh - 70px);
-  background: url("https://ik.imagekit.io/prezzgh/technologies/hero.jpg?updatedAt=1721001751574");
+  background: url("https://ik.imagekit.io/prezzgh/technologies/hero-backgroundv2_rNVD5dAF3.jpg?updatedAt=1735065277587");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .intro {
-  color: white;
+  color: #11141B;
   padding: 64px 32px;
-  background-color: #11141B;
+  /*background-color: #11141B;*/
   line-height: 25px;
   letter-spacing: 0.5px;
 }
@@ -45,37 +45,18 @@ strong {
 }
 
 .projects {
-  color: #FFE589;
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
-  align-items: center;
-  justify-content: center;
-  background-color: #222222;
-  padding: 64px 32px;
-}
-
-.section-heading {
-  font-size: 36px;
-  font-weight: 900;
-}
-
-.project-list {
-  display: flex;
-  gap: 32px;
-  flex-wrap: wrap;
+  padding: 0 32px;
 }
 
 .project {
-  padding: 32px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  border-radius: 12px;
   background-color: #292929;
-  backdrop-filter: blur(10px);
-  width: 100%;
+  border-radius: 24px;
+  margin-bottom: 32px;
 }
 
 .project-title {
@@ -93,6 +74,10 @@ strong {
     font-size: 32px;
     line-height: 50px;
   }
+
+  .hero-links {
+    display: flex;
+  }
 }
 
 footer {
@@ -104,14 +89,42 @@ footer {
   align-items: center;
 }
 
-.links {
+.link {
   display: flex;
-  gap: 8px;
+  gap: 2px;
   align-items: center;
-  font-weight: 700;
   color: white;
+  font-size: 14px;
+  font-weight: 700;
 }
 
-a {
-  color: #FFE589;
+.link a{
+  color: white;
+  text-decoration: underline;
+}
+
+.hero-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 48px;
+}
+
+.invoice {
+  background: url("https://ik.imagekit.io/prezzgh/technologies/invoice.jpg?updatedAt=1735064553767");
+}
+
+.business {
+  background: url("https://ik.imagekit.io/prezzgh/technologies/business.jpg?updatedAt=1735064737114");
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
